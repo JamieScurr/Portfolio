@@ -33,12 +33,12 @@ const Footer = (props: Props) => {
 
 					<a
 						href="https://www.linkedin.com/in/jamiescurr/"
-						className="opacity-60 hover:opacity-100"
+						className="opacity-60 hover:opacity-100 hover:text-[#5cbc62]"
 						target="_blank">
 						LinkedIn
 					</a>
 					<a
-						className="opacity-60 hover:opacity-100"
+						className="opacity-60 hover:opacity-100 hover:text-[#5cbc62]"
 						href="https://github.com/JamieScurr"
 						target="_blank">
 						GitHub
