@@ -27,7 +27,7 @@ const Header = (props: Props) => {
 				{!menu ? <FaBars /> : <FaTimes />}{" "}
 			</div>
 			{menu && (
-				<ul className="uppercase absolute right-0 mt-8 mr-5 w-fit text-right cursor-pointer  sm:hidden">
+				<ul className="uppercase absolute right-0 mt-8 mr-5 w-fit text-right cursor-pointer space-y-2 sm:hidden">
 					<li>
 						<a href="images/Resume.png" target="_blank">
 							<span className="text-[--green] font-bold">{"<"}</span>Resume
