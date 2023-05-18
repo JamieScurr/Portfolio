@@ -81,7 +81,7 @@ const Asmpt = (props: Props) => {
 								loading="lazy"
 								alt="home"
 							/>
-							<p className="pt-2">C#</p>
+							<p className="pt-2 text-[#5cbc62]">C#</p>
 						</li>
 						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
 							<img
@@ -89,7 +89,7 @@ const Asmpt = (props: Props) => {
 								decoding="async"
 								loading="lazy"
 							/>
-							<p className="pt-2">.Net</p>
+							<p className="pt-2 text-[#5cbc62]">.Net</p>
 						</li>
 
 						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
@@ -98,7 +98,7 @@ const Asmpt = (props: Props) => {
 								decoding="async"
 								loading="lazy"
 							/>
-							<p className="pt-2">Confluence</p>
+							<p className="pt-2 text-[#5cbc62]">Confluence</p>
 						</li>
 						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
 							<img
@@ -107,7 +107,7 @@ const Asmpt = (props: Props) => {
 								loading="lazy"
 								style={{ filter: "invert(1)" }}
 							/>
-							<p className="pt-2">XAML</p>
+							<p className="pt-2 text-[#5cbc62]">XAML</p>
 						</li>
 						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
 							<img
@@ -115,7 +115,7 @@ const Asmpt = (props: Props) => {
 								decoding="async"
 								loading="lazy"
 							/>
-							<p className="pt-2">Git</p>
+							<p className="pt-2 text-[#5cbc62]">Git</p>
 						</li>
 						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
 							<img
@@ -123,11 +123,11 @@ const Asmpt = (props: Props) => {
 								decoding="async"
 								loading="lazy"
 							/>
-							<p className="pt-2">BitBucket</p>
+							<p className="pt-2 text-[#5cbc62]">BitBucket</p>
 						</li>
 						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
 							<img src="images/atlassian.svg" decoding="async" loading="lazy" />
-							<p className="pt-2">Atlassian</p>
+							<p className="pt-2 text-[#5cbc62]">Atlassian</p>
 						</li>
 						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
 							<img
@@ -135,7 +135,7 @@ const Asmpt = (props: Props) => {
 								decoding="async"
 								loading="lazy"
 							/>
-							<p className="pt-2">Jira</p>
+							<p className="pt-2 text-[#5cbc62]">Jira</p>
 						</li>
 					</ul>
 				</div>
