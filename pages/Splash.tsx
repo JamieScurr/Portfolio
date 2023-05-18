@@ -15,11 +15,11 @@ const Splash = (props: Props) => {
 			<div className="mb-28 absolute xl:left-96 ">
 				<h1 className="flex flex-row">
 					<span className="text-[--green] font-bold  sm:text-3xl">{"<"}</span>
-					<p className=" sm:text-3xl tracking-[2px]">Hello World</p>
+					<p className="sm:text-3xl tracking-[2px]">Hello World</p>
 					<span className="text-[--green] font-bold sm:text-3xl">{"/>"}</span>
 				</h1>
 				<h2 className="text-3xl sm:text-6xl uppercase tracking-[2px] py-1 sm:py-3 font-bold">
-					I'm Jamie Scurr
+					I{"'"}m Jamie Scurr
 				</h2>
 				<h1 className="text-xl">
 					<span className="text-xl sm:text-3xl tracking-[2px] ">
