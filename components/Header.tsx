@@ -38,8 +38,12 @@ const Header = (props: Props) => {
 					</li>
 
 					<li>
-						<span className="text-[--green] font-bold">{"<"}</span>Contact
-						<span className="text-[--green] font-bold">{"/> "}</span>
+						<Link to="Contact" duration={500} smooth={true}>
+							{" "}
+							<span className="text-[--green] font-bold">{"<"}</span>
+							Contact
+							<span className="text-[--green] font-bold">{"/> "}</span>
+						</Link>
 					</li>
 				</ul>
 			)}
@@ -59,10 +63,12 @@ const Header = (props: Props) => {
 						<span className="text-[--green] font-bold">{"/> "}</span>
 					</Link>
 
-					<li>
-						<span className="text-[--green] font-bold">{"<"}</span>Contact
+					<Link to="Contact" duration={500} smooth={true}>
+						{" "}
+						<span className="text-[--green] font-bold">{"<"}</span>
+						Contact
 						<span className="text-[--green] font-bold">{"/> "}</span>
-					</li>
+					</Link>
 				</ul>
 			</div>
 		</div>
