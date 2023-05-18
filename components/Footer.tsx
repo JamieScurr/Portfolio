@@ -26,18 +26,22 @@ const Footer = (props: Props) => {
 					</div>
 				</div>
 				<div className="flex flex-col">
-					<div className="flex">
+					<div className="flex mb-2">
 						<span className="text-[--green] font-bold">{"<"}</span>Links
 						<span className="text-[--green] font-bold">{"/> "}</span>
 					</div>
+
 					<a
-						className="mt-2"
+						href="https://www.linkedin.com/in/jamiescurr/"
+						className="opacity-60 hover:opacity-100"
+						target="_blank">
+						LinkedIn
+					</a>
+					<a
+						className="opacity-60 hover:opacity-100"
 						href="https://github.com/JamieScurr"
 						target="_blank">
 						GitHub
-					</a>
-					<a href="https://www.linkedin.com/in/jamiescurr/" target="_blank">
-						LinkedIn
 					</a>
 				</div>
 			</div>

@@ -51,22 +51,23 @@ const Header = (props: Props) => {
 			<div className="hidden sm:flex cursor-pointer">
 				<ul className="uppercase flex flex-row gap-10">
 					<li>
-						<a href="images/Resume.png" target="_blank">
-							<span className="text-[--green] font-bold">{"<"}</span>Resume
+						<a className="flex" href="images/Resume.png" target="_blank">
+							<span className="text-[--green] font-bold">{"<"}</span>
+							<p className="opacity-70 hover:opacity-100">Resume</p>
 							<span className="text-[--green] font-bold">{"/> "}</span>
 						</a>
 					</li>
-					<Link to="Experience" duration={500} smooth={true}>
-						{" "}
-						<span className="text-[--green] font-bold">{"<"}</span>
-						Experience
-						<span className="text-[--green] font-bold">{"/> "}</span>
-					</Link>
+					<li>
+						<Link className="flex" to="Experience" duration={500} smooth={true}>
+							<span className="text-[--green] font-bold">{"<"}</span>
+							<p className="opacity-70 hover:opacity-100">Experience</p>
+							<span className="text-[--green] font-bold">{"/> "}</span>
+						</Link>
+					</li>
 
-					<Link to="Contact" duration={500} smooth={true}>
-						{" "}
+					<Link className="flex" to="Contact" duration={500} smooth={true}>
 						<span className="text-[--green] font-bold">{"<"}</span>
-						Contact
+						<p className="opacity-70 hover:opacity-100">Resume</p>
 						<span className="text-[--green] font-bold">{"/> "}</span>
 					</Link>
 				</ul>
