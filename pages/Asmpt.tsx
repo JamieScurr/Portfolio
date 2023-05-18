@@ -26,30 +26,31 @@ const Asmpt = (props: Props) => {
 						</h2>
 					</div>
 					<div className="mt-8">
-						<h2 className="underline decoration-[--green] decoration-2 font-semibold sm:text-xl  mb-1">
-							Responsibilities:
+						<h2 className=" decoration-[--green] decoration-2 font-semibold sm:text-xl  mb-1">
+							Responsibilities
+							<span className="text-[--green] font-black">:</span>
 						</h2>
 						<p className="text-sm sm:text-lg font-light ">
 							Built and sustained the DEK TQ Platform and developed software in
 							WPF using XAML for the design and MVVM as the architectural
-							pattern
-							<span className="text-[--green] font-black">.</span>
+							pattern.
 						</p>
 
 						<div>
-							<h2 className="underline decoration-[--green] decoration-2 font-semibold mb-1 sm:text-xl  mt-8">
-								Contributions:
+							<h2 className=" decoration-[--green] decoration-2 font-semibold mb-1 sm:text-xl  mt-8">
+								Contributions
+								<span className="text-[--green] font-black">:</span>
 							</h2>
-							<ul className="space-y-2 list-disc pl-4 text-sm sm:text-lg font-light ">
-								<li>
-									<p>
+							<ul className="space-y-2  list-disc  text-green-500  pl-4 text-sm sm:text-lg font-light ">
+								<li className="">
+									<p className="text-[#c2c2c2]">
 										Successfully implemented and tested software solutions in
 										accordance with internal procedures, ensuring high-quality
 										output within agreed-upon timelines.
 									</p>
 								</li>
 								<li>
-									<p>
+									<p className="text-[#c2c2c2]">
 										Developed high-quality solutions with a strong emphasis on
 										writing clean code for both front-end and back-end, ensuring
 										timely resolution of defects while adhering to strict
@@ -57,7 +58,7 @@ const Asmpt = (props: Props) => {
 									</p>
 								</li>
 								<li>
-									<p>
+									<p className="text-[#c2c2c2]">
 										Demonstrated my ability to understand the requirements for a
 										new software feature and provide an appropriate design for
 										its implementation.
@@ -69,8 +70,8 @@ const Asmpt = (props: Props) => {
 				</div>
 
 				<div className="">
-					<h2 className="underline decoration-[--green] decoration-2 mb-1 mt-8 sm:mt-0 sm:text-xl sm:pt-0 font-semibold sm:pb-8 ">
-						Technical Skills:
+					<h2 className=" decoration-[--green] decoration-2 mb-1 mt-8 sm:mt-0 sm:text-xl sm:pt-0 font-semibold sm:pb-8 ">
+						Technical Skills<span className="text-[--green] font-black">:</span>
 					</h2>
 					<ul className="mt-8 max-w-screen-lg gap-x-12 gap-y-12 md:gap-y-20 md:gap-28 md:text-lg  text-center items-left justify-start  text-xs align-middle flex flex-wrap sm:justify-start ">
 						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
