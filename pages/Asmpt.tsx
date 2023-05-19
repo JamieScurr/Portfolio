@@ -106,7 +106,7 @@ const Asmpt = (props: Props) => {
 							<span className="text-[--green] font-black ">:</span>
 						</h2>
 						<p className="text-sm sm:text-lg font-light ">
-							Built and sustained the DEK TQ Platform and developed software in
+							Built/sustained the DEK TQ Platform and developed software in .NET
 							WPF using XAML for the design and MVVM as the architectural
 							pattern.
 						</p>
