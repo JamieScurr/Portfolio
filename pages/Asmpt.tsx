@@ -73,71 +73,80 @@ const Asmpt = (props: Props) => {
 					<h2 className=" decoration-[--green] decoration-2 mb-1 mt-8 sm:mt-0 sm:text-xl sm:pt-0 font-semibold sm:pb-8 ">
 						Technical Skills<span className="text-[--green] font-black">:</span>
 					</h2>
-					<ul className="mt-8 max-w-screen-lg gap-x-12 gap-y-12 md:gap-y-20 md:gap-28 md:text-lg  text-center items-left justify-start  text-xs align-middle flex flex-wrap sm:justify-start ">
-						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-								decoding="async"
-								loading="lazy"
-								alt="home"
-							/>
-							<p className="pt-2 text-[#5cbc62]">C#</p>
-						</li>
-						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
-								decoding="async"
-								loading="lazy"
-							/>
-							<p className="pt-2 text-[#5cbc62]">.Net</p>
-						</li>
+					<div>
+						<ul className="mt-8 max-w-screen-lg gap-x-12 gap-y-12 md:gap-y-20 md:gap-28 md:text-lg  text-center items-left justify-start  text-xs align-middle flex flex-wrap sm:justify-start ">
+							<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+									decoding="async"
+									loading="lazy"
+									alt="home"
+								/>
+								<p className="pt-2 text-[--green]">C#</p>
+							</li>
+							<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg"
+									decoding="async"
+									loading="lazy"
+								/>
+								<p className="pt-2 text-[--green]">Confluence</p>
+							</li>
 
-						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg"
-								decoding="async"
-								loading="lazy"
-							/>
-							<p className="pt-2 text-[#5cbc62]">Confluence</p>
-						</li>
-						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
-							<img
-								src="images/xaml.svg"
-								decoding="async"
-								loading="lazy"
-								style={{ filter: "invert(1)" }}
-							/>
-							<p className="pt-2 text-[#5cbc62]">XAML</p>
-						</li>
-						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-								decoding="async"
-								loading="lazy"
-							/>
-							<p className="pt-2 text-[#5cbc62]">Git</p>
-						</li>
-						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg"
-								decoding="async"
-								loading="lazy"
-							/>
-							<p className="pt-2 text-[#5cbc62]">BitBucket</p>
-						</li>
-						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
-							<img src="images/atlassian.svg" decoding="async" loading="lazy" />
-							<p className="pt-2 text-[#5cbc62]">Atlassian</p>
-						</li>
-						<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
-								decoding="async"
-								loading="lazy"
-							/>
-							<p className="pt-2 text-[#5cbc62]">Jira</p>
-						</li>
-					</ul>
+							<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
+								<img
+									src="images/xaml.svg"
+									decoding="async"
+									loading="lazy"
+									style={{
+										filter:
+											"brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%)",
+									}}
+								/>
+								<p className="pt-2 text-[--green]">XAML</p>
+							</li>
+							<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+									decoding="async"
+									loading="lazy"
+								/>
+								<p className="pt-2 text-[--green]">.Net</p>
+							</li>
+							<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+									decoding="async"
+									loading="lazy"
+								/>
+								<p className="pt-2 text-[--green]">Git</p>
+							</li>
+							<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg"
+									decoding="async"
+									loading="lazy"
+								/>
+								<p className="pt-2 text-[--green]">BitBucket</p>
+							</li>
+							<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+									decoding="async"
+									loading="lazy"
+								/>
+								<p className="pt-2 text-[--green]">Jira</p>
+							</li>
+							<li className="w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] lg:w-[55px] lg:h-[55px] flex flex-col justify-center items-center ">
+								<img
+									src="images/atlassian.svg"
+									decoding="async"
+									loading="lazy"
+								/>
+								<p className="pt-2 text-[--green]">Atlassian</p>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
