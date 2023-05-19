@@ -4,14 +4,15 @@ type Props = {};
 
 const Footer = (props: Props) => {
 	return (
-		<div className="max-w-7xl mx-auto py-16 justify-center text-left items-start">
+		<div className="max-w-7xl mx-auto sm:px-2 py-16 justify-center text-left items-start">
 			<div className="flex flex-col px-8 sm:px-0 sm:flex-row gap-10 sm:gap-16">
 				<div className="flex flex-col">
 					<div className="flex">
 						<span className="text-[--green] font-bold">{"<"}</span>Portfolio
 						<span className="text-[--green] font-bold">{"/> "}</span>
 					</div>
-					<h1 className="mt-2">Built by Jamie Scurr</h1>
+					<h1 className="mt-2">Designed and Built by </h1>
+					<h1>Jamie Scurr</h1>
 				</div>
 				<div className="flex flex-col">
 					<div>
