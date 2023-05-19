@@ -16,7 +16,7 @@ const Header = (props: Props) => {
 			<div>
 				<h1 className="font-bold text-lg sm:text-2xl">
 					<img
-						className="absolute top-1 sm:w-14 w-14 sm:top-3"
+						className="absolute top-1 sm:w-14 w-14 sm:top-1 md:top-3"
 						src="images/JS.svg"
 						alt="Logo"
 					/>
@@ -78,7 +78,7 @@ const Header = (props: Props) => {
 					<Link className="flex" to="Contact" duration={500} smooth={true}>
 						<span className="text-[--green] font-bold">{"<"}</span>
 						<p className="opacity-70 hover:opacity-100 hover:text-[#5cbc62]">
-							Resume
+							Contact
 						</p>
 						<span className="text-[--green] font-bold">{"/> "}</span>
 					</Link>
