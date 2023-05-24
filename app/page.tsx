@@ -5,6 +5,10 @@ import Splash from "@/pages/Splash";
 
 export default function Home() {
 	return (
+		<Head>
+		  <meta name="description" content="Software Engineer building professionally in the .NET ecosystem and personally in NEXTJS and Typescript, I enjoy competitive also." />
+		</Head>
+
 		<main className="overflow-x-hidden">
 			<section id="Header">
 				<Header />
