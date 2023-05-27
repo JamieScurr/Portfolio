@@ -6,7 +6,7 @@ type Props = {};
 
 const Splash = (props: Props) => {
 	const [Splashtext] = useTypewriter({
-		words: ["Software Engineer", "Developer", "Tinkerer"],
+		words: ["Software Engineer", "Lifelong Learner", "Tinkerer"],
 		loop: true,
 		delaySpeed: 4000,
 	});
